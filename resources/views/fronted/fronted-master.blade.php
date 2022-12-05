@@ -128,7 +128,7 @@
     <div class="block-slider block-slider4">
         <ul class="" id="bxslider-home4">
             <li>
-                <img src="img/h4-slide.png" alt="Slide">
+                <img src="{{asset('/')}}assets/fronted-assets/img/h4-slide.png" alt="Slide">
                 <div class="caption-group">
                     <h2 class="caption title">
                         iPhone <span class="primary">6 <strong>Plus</strong></span>
@@ -146,7 +146,7 @@
                     <a class="caption button-radius" href="#"><span class="icon"></span>Shop now</a>
                 </div>
             </li>
-            <li><img src="img/h4-slide3.png" alt="Slide">
+            <li><img src="{{asset('/')}}assets/fronted-assets/img/h4-slide3.png" alt="Slide">
                 <div class="caption-group">
                     <h2 class="caption title">
                         Apple <span class="primary">Store <strong>Ipod</strong></span>
