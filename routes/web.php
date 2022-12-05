@@ -1,6 +1,8 @@
 <?php
 
 use Illuminate\Support\Facades\Route;
+use App\Http\Controllers\DashboardController;
+use App\Http\Controllers\HomeController;
 
 /*
 |--------------------------------------------------------------------------
@@ -13,9 +15,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function () {
-    return view('welcome');
-});
+Route::get('/', [HomeController::class, "index"]) ->name ('home');
+
 
 Route::middleware([
     'auth:sanctum',
@@ -23,6 +24,7 @@ Route::middleware([
     'verified'
 ])->group(function () {
     Route::get('/dashboard', function () {
-        return view('backend.backend-master');
+        return view('backend.dashboard.index');
     })->name('dashboard');
+    Route::get('/dashboard', [DashboardController::class, "index"]) ->name ('dashboard');
 });
