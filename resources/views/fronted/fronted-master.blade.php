@@ -543,7 +543,7 @@
         <div class="row">
             <div class="col-md-8">
                 <div class="copyright">
-                    <p>&copy; 2015 uCommerce. All Rights Reserved. <a href="http://www.freshdesignweb.com" target="_blank">freshDesignweb.com</a></p>
+                    <p>&copy; 2022 E-commerce. All Rights Reserved. <a href="#" target="_blank">Developed by Md. Ismail Hasan Tanjer </a></p>
                 </div>
             </div>
 
